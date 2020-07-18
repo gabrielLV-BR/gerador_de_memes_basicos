@@ -1,7 +1,9 @@
-function createMeme(link, title, subtitle)
+function createMeme(linke, title, subtitle)
 {
     document.getElementById("memeTitle").innerHTML = title;
     document.getElementById("memeSubtitle").innerHTML = subtitle;
-    
-    document.getElementById("memeImage").src = link;
+
+	if(linke != ''){
+		document.getElementById("memeImage").src = linke;
+	}
 }

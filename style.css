@@ -36,14 +36,10 @@ img {
 }
 
 .InputArea{
+	width: 90%;
     margin: auto;
     background-color: white;
     color : black;
-}
-
-.button
-{
-    font-size: 30px;
 }
 
 .InputArea > h1
@@ -64,9 +60,30 @@ img {
     padding-right: 5%;
 }
 
-.formulary
+form
 {
     text-align: center;
     font-family: "Impact", serif, sans-serif;
-    font-size: 1.5em;
+    font-size: 3em;
+}
+
+input[type=text]
+{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=button]
+{
+	font-family: "Impact";
+    font-size: 1em;
+	width: 20%;
+	color: white;
+	background-color: black;
+	cursor: pointer;
 }

@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.mainTitle 
+{
+    text-align: center;
+    color: white;
+    font-family: "Impact", serif, sans-serif;
+    font-size: 5em;
+}
+
+img {
+    display: block;
+    max-height: 30vw;
+    max-width: auto;
+    min-height: 20vw;
+    margin: auto;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+#memeTitle
+{
+    text-align: center;
+    font-family: "Times New Roman", "Times", serif, sans-serif;
+    font-size: 5em;
+}
+
+#memeSubtitle
+{
+    text-align: center;
+    font-family: "Times New Roman", "Times", serif, sans-serif;  
+    font-size: 3em;
+}
+
+.InputArea{
+    margin: auto;
+    background-color: white;
+    color : black;
+}
+
+.button
+{
+    font-size: 30px;
+}
+
+.InputArea > h1
+{
+    font-size: 3em;
+    text-align: center;
+    font-family: fantasy, serif, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.InputArea > p
+{
+    text-align: center;
+    font-family: serif, sans-serif;
+    font-size: 2em;
+        padding-left: 5%;
+    padding-right: 5%;
+}
+
+.formulary
+{
+    text-align: center;
+    font-family: "Impact", serif, sans-serif;
+    font-size: 1.5em;
+}

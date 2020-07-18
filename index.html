@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+      <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+      <h1 class="mainTitle">GERADOR DE MEMES BÁSICOS</h1>
+    
+      <div class="InputArea">
+          <br>
+          <h1>Insira um link de imagem, um título e um subtítulo e o seu meme sai prontinho!</h1>
+          <br>
+          <p>Sabe aqueles memes com uma imagem no centro e uma frase "engraçada" embaixo? Pois então, este site tem como objetivo facilitar a criação de memes como estes!</p>
+          <br>
+          
+          <form class="formulary">
+              <label>Título</label>
+              <br>
+              <input id="title" type="text">
+              <br><br>
+              <label>Subtítulo</label>
+              <br>
+              <input id="subtitle" type="text">
+              <br><br>
+              <label>Link da imagem</label>
+              <br>
+              <input id="link" type="text">
+              <br><br>
+              <input class="button" type="button" value="Criar!" onclick="createMeme(document.getElementById('link').value, document.getElementById('title').value,document.getElementById('subtitle').value )">
+              <br><br>
+          </form>
+          
+      </div>
+      
+      <br><br><br><br>
+      
+      <div>
+            <img id="memeImage" src="https://preview.redd.it/6cmpb5d0d3o31.jpg?auto=webp&s=e6e26d871b99c0437ec081bb99e178569201fa69">
+            <h1 id="memeTitle">LEÃO</h1>
+            <h2 id="memeSubtitle"> Ele é um leão</h2>
+      </div>
+      
+      <br><br><br><br>
+      
+  </body>
+</html>
